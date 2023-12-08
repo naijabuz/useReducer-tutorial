@@ -1,5 +1,6 @@
 import { useState, useEffect, useReducer } from "react";
 import { initialState, appReducer } from "./reducer/reducer";
+import actionConditions from "./reducer/actionTypes";
 import "./App.css";
 
 function App() {
